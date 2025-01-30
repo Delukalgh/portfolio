@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    margin: 3rem;
+    justify-content: space-between;
+}
+
+.navLinks>ul {
+    display: flex;
+    gap: 5em;
+    font-size: 1em;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 5em;
+}
