@@ -8,7 +8,41 @@
     display: flex;
     gap: 5em;
     font-size: 1em;
-    
+
+}
+
+.navLinks>ul>li {
+    display: flex;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    color: #808080;
+}
+
+.navLinks>ul>li:hover {
+    /* color: #000; */
+    background-image: linear-gradient(60deg, #FF5F00, #0097CE);
+    background-clip: text;
+    color: transparent;
+}
+
+.navLinks>ul>li::before {
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(45deg, #FF5F00 9.6%, #0097CE 93.6%);
+    transition: all .5s;
+    border-radius: 24px;
+}
+
+.navLinks>ul>li:hover::before {
+    width: 100%;
 }
 
 .logo {
