@@ -6,7 +6,7 @@ const Can = () => {
     return (
         <>
             <Header />
-            <div className="flex flex-col items-center justify-center gap-[1px]">
+            <div className="flex flex-col items-center justify-center">
                 <div>
                     <h1 className="font-bold text-[4em]">EVERGREEN BREWING</h1>
                 </div>
