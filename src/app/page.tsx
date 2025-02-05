@@ -10,7 +10,7 @@ export default function Home() {
       <div className="flex flex-col justify-center mt-[10em]">
         <div>
           <div className={styles.title}>
-            <p>Hello I'm, Deluka LGH</p> <br></br><p>Front-End Developer</p>
+            <p>Hello I'm, Deluka LGH</p> <p>Front-End Developer</p>
           </div>
         </div>
       </div>
