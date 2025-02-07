@@ -13,6 +13,10 @@
     justify-content: space-around;
 }
 
+.title > p > span {
+    color: #FF5F00;
+}
+
 .hcontainer {
     height: 100vh;
 }

@@ -28,7 +28,7 @@ export default function Home() {
         <div className="flex flex-col justify-center mt-[10em]">
           <div>
             <div className={styles.title}>
-              <p>Hello I'm, Deluka LGH</p> <p>Front-End Developer</p>
+              <p>Hello I'm, Deluka LGH</p> <p><span>Front-End Developer</span> | UX/UI Designer</p>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function Home() {
 interface WordProps {
   children: React.ReactNode;
   range: [number, number];
-  progress: any; // or `MotionValue<number>` if using Framer Motion's type
+  progress: any; 
 }
 
 const Word: React.FC<WordProps> = ({ children, range, progress }) => {
