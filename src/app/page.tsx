@@ -56,7 +56,13 @@ export default function Home() {
   );
 }
 
-const Word = ({ children, range, progress }) => {
+interface WordProps {
+  children: React.ReactNode;
+  range: [number, number];
+  progress: any; // or `MotionValue<number>` if using Framer Motion's type
+}
+
+const Word: React.FC<WordProps> = ({ children, range, progress }) => {
   const opacity = useTransform(progress, range, [0, 1]);
 
   return (
@@ -64,4 +70,14 @@ const Word = ({ children, range, progress }) => {
       {children}{" "}
     </motion.span>
   );
-}
+};
+
+// const Word = ({ children, range, progress }) => {
+//   const opacity = useTransform(progress, range, [0, 1]);
+
+//   return (
+//     <motion.span style={{ opacity }} className={styles.word}>
+//       {children}{" "}
+//     </motion.span>
+//   );
+// }
