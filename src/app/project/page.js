@@ -1,21 +1,26 @@
+import next from 'next'
 import Image from 'next/image'
-import Cans from "/public/images/cans.png"
+import Link from 'next/link'
+import Cans from '/public/images/cans.png'
+import React from 'react'
 
-export default function Project() {
-    return(
-        <>
-            <h1>PROJECTS PAGE</h1>
+const Projects = () => {
+    return (
+        <div className="work-links m-auto ">
             <div className="p-4">
-            <a href="/project/can">
-            <Image
-              src={Cans}
-              alt="cans"
-              width={500}
-              height={500}
-            />
-            </a>
+                <a href="/project/can">
+                    <Image
+                        src={Cans}
+                        alt="cans"
+                        width={600}
+                        height={600}
+                    />
+                </a>
 
-          </div>
-        </>
+            </div>
+
+        </div>
     )
 }
+
+export default Projects

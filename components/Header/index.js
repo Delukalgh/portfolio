@@ -13,6 +13,7 @@ export default function Header() {
                         src="/images/SVG/logo.svg"
                         width={150}
                         height={150}
+                        alt="logo"
                     />
                 </div>
                 <div className={styles.navLinks}>
