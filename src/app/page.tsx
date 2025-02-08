@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import Header from "../../components/Header";
 import Image from "next/image";
 import Cans from "../../public/images/cans.png"
+import Blue from '/public/images/blue.png'
 import { useScroll, motion, useTransform } from "framer-motion";
 import { validateHeaderValue } from "http";
 import Projects from "./project/page";
@@ -47,7 +48,30 @@ export default function Home() {
         </div>
 
         <main className="flex mt-[12em] justify-center items-center">
-          <Projects />
+          <div className="flex flex-col work-links m-auto items-center relative h-[200vh]">
+            <div>
+              <a href="/project/can">
+                <Image
+                  src={Cans}
+                  alt="cans"
+                  width={1200}
+                  height={1200}
+                />
+              </a>
+
+            </div>
+            <div>
+              <a href="/project/cigbox">
+                <Image
+                  src={Blue}
+                  alt='Blue Cigbox'
+                  width={'900'}
+                  height={'900'}
+                />
+              </a>
+            </div>
+
+          </div>
         </main>
 
       </div>
@@ -59,7 +83,7 @@ export default function Home() {
 interface WordProps {
   children: React.ReactNode;
   range: [number, number];
-  progress: any; 
+  progress: any;
 }
 
 const Word: React.FC<WordProps> = ({ children, range, progress }) => {
