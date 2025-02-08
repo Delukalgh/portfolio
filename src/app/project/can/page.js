@@ -26,9 +26,9 @@ const Can = () => {
                     </a>
                 </div>
 
-                <div className="flex flex-col mt-[1em] w-[57%] gap-[1em]">
-                    <h1 className="flex justify-center font-bold text-[2em]">Package Design</h1>
-                    <p>Evergreen Brewing is a brewery deeply inspired by the rich, earthy essence of the great outdoors. Created by utilizing Adobe Photoshop and Illustrator. This design uses a wood texture with a dark background to make the typography more prominent. It all ties into together with the colors of the pictures matching the typography color.  </p>
+                <div className="flex flex-col mt-[1em] w-[57%] gap-[5em]">
+                    <h1 className="flex justify-center font-bold text-[3em]">Package Design</h1>
+                    <p className="font-light text-[22px]">Evergreen Brewing is a brewery deeply inspired by the rich, earthy essence of the great outdoors. Created by utilizing Adobe Photoshop and Illustrator. This design uses a wood texture with a dark background to make the typography more prominent. It all ties into together with the colors of the pictures matching the typography color.  </p>
                 </div>
 
                 <div className=" flex flex-col p-4 gap-[3em]">
