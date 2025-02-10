@@ -2,7 +2,7 @@ import Header from "../../../../components/Header"
 import styles from "./Magazine.module.css";
 import Image from "next/image";
 import Toyo from '/public/images/magmockup.png'
-import Eight from "/public/images/Pageeight.png"
+import Eight from "/public/images/pageeight.png"
 import Nine from "/public/images/pagenine.png"
 import Ten from "/public/images/pageten.png"
 
