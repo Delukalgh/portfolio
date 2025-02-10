@@ -34,7 +34,7 @@ const Remedify = () => {
                     </div>
                     <div className="flex flex-col">
                         <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">Additionale Links</h1>
-                        <div className="flex flex-row gap-[4em] font-medium text-[18px]">
+                        <div className="flex flex-row gap-[4em] font-medium text-[18px] text-[#0097CE]">
                             <a href="https://www.remedify.ca/">Remedify Website</a>
                             <a href="https://remedify-blog.vercel.app/">Remedify Blog</a>
                             <a href="https://github.com/yeenathan/asclepius">Remeify Repo</a>
