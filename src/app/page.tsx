@@ -7,6 +7,7 @@ import Image from "next/image";
 import Cans from "../../public/images/cans.png"
 import Blue from '/public/images/blue.png'
 import Toyo from '/public/images/magmockup.png'
+import Cover from '/public/images/cover.jpg'
 import { useScroll, motion, useTransform } from "framer-motion";
 
 export default function Home() {
@@ -75,6 +76,17 @@ export default function Home() {
                 <Image
                 src={Toyo}
                 alt="magazine"
+                width={900}
+                height={900}
+                />
+              </a>
+            </div>
+
+            <div> 
+              <a>
+                <Image 
+                src={Cover}
+                alt="Remedify Cover"
                 width={900}
                 height={900}
                 />
