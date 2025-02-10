@@ -120,6 +120,7 @@ const Remedify = () => {
                         height={450}
                     />
                     </div>
+                    <p className="font-light text-[22px]">The persona's were built with the target audience in mind, which was refined by the interviews and surveys.</p>
                 </div>
             </div>
         </>
