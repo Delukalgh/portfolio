@@ -6,9 +6,8 @@ import Header from "../../components/Header";
 import Image from "next/image";
 import Cans from "../../public/images/cans.png"
 import Blue from '/public/images/blue.png'
+import Toyo from '/public/images/magmockup.png'
 import { useScroll, motion, useTransform } from "framer-motion";
-import { validateHeaderValue } from "http";
-import Projects from "./project/page";
 
 export default function Home() {
 
@@ -48,14 +47,14 @@ export default function Home() {
         </div>
 
         <main className="flex mt-[12em] justify-center items-center">
-          <div className="flex flex-col work-links m-auto items-center relative h-[200vh]">
+          <div className="flex flex-col work-links m-auto items-center relative h-[200vh] gap-10">
             <div>
               <a href="/project/can">
                 <Image
                   src={Cans}
                   alt="cans"
-                  width={1200}
-                  height={1200}
+                  width={900}
+                  height={900}
                 />
               </a>
 
@@ -67,6 +66,17 @@ export default function Home() {
                   alt='Blue Cigbox'
                   width={'900'}
                   height={'900'}
+                />
+              </a>
+            </div>
+
+            <div>
+              <a href="/project/magazine">
+                <Image
+                src={Toyo}
+                alt="magazine"
+                width={900}
+                height={900}
                 />
               </a>
             </div>

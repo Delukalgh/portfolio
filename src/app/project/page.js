@@ -11,30 +11,8 @@ import React from 'react'
 const Projects = () => {
 
     return (
-        <div className="flex flex-col work-links m-auto items-center relative h-[200vh]">
-            <div>
-                <a href="/project/can">
-                    <Image
-                        src={Cans}
-                        alt="cans"
-                        width={1200}
-                        height={1200}
-                    />
-                </a>
-
-            </div>
-            <div>
-                <a href="/project/cigbox">
-                    <Image
-                        src={Blue}
-                        alt='Blue Cigbox'
-                        width={'900'}
-                        height={'900'}
-                    />
-                </a>
-            </div>
-
-        </div>
+        <>
+        </>
     )
 }
 
