@@ -4,6 +4,8 @@ import Image from "next/image";
 import Cover from "/public/images/cover.jpg"
 import Auto from "/public/images/automated.jpg"
 import Info from "/public/images/insight.jpg"
+import Primary from "/public/images/primarypersona.png"
+import Secondary from "/public/images/secondarypersona.png"
 
 const Remedify = () => {
     return (
@@ -102,8 +104,22 @@ const Remedify = () => {
                 <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
                     <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">Research</h1>
                     <p className="font-light text-[22px]">Numerous surveys and interviews were run by the members of the team to ensure that the idea of the app is refined
-                        and validated.
-                    </p>
+                        and validated.</p>
+                    <div className="flex flex-row justify-between">
+                    <Image
+                        src={Primary}
+                        alt="primary persona"
+                        width={450}
+                        height={450}
+                    />
+
+                    <Image
+                        src={Secondary}
+                        alt="secondary persona"
+                        width={450}
+                        height={450}
+                    />
+                    </div>
                 </div>
             </div>
         </>
