@@ -83,7 +83,7 @@ export default function Home() {
             </div>
 
             <div> 
-              <a>
+              <a href="/project/remedify">
                 <Image 
                 src={Cover}
                 alt="Remedify Cover"
