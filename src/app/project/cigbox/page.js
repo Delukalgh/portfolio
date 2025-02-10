@@ -30,7 +30,7 @@ const Cig = () => {
 
                 <div className="flex flex-col mt-[1em] w-[57%] gap-[5em]">
                     <h1 className="flex justify-center font-bold text-[3em]">Logo Design Project</h1>
-                    <p className="font-light text-[22px]">This project showcase a colorful and fun poster design for “Sovereign”. created by using Adobe Illustrator and Photoshop. The design takes vibrant backgrounds and playful graphics and combines them to create an aesthetic that is both eye-catching and engaging. The project emphasizes creativity and attention to detail, combining colors, textures, and visuals to convey a fun and dynamic brand identity. </p>
+                    <p className="font-light text-[22px]">The design features vibrant backgrounds and playful graphics, blending them into an eye-catching and engaging aesthetic. The posters adopt an Art Deco style, evoking a sense of nostalgia for the older generation.</p>
                 </div>
 
                 <div className="flex flex-col p-4 mt-[8em] gap-10">
