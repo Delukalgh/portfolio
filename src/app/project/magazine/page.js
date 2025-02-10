@@ -2,9 +2,9 @@ import Header from "../../../../components/Header"
 import styles from "./Magazine.module.css";
 import Image from "next/image";
 import Toyo from '/public/images/magmockup.png'
-import Eight from "/public/images/Page8.jpg"
-import Nine from "/public/images/page9.jpg"
-import Ten from "/public/images/page10.jpg"
+import Eight from "/public/images/Pageeight.jpg"
+import Nine from "/public/images/pagenine.jpg"
+import Ten from "/public/images/pageten.jpg"
 
 const Magazine = () => {
     return (
