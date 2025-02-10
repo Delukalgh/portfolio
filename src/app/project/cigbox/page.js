@@ -1,6 +1,6 @@
 import styles from "./Cig.module.css";
 import Header from "../../../../components/Header";
-import Mockup from "/public/images/paper.png"
+import Paper from "/public/images/paper.png"
 import Blue from "/public/images/blue.png"
 import Green from "/public/images/green.png"
 import Pink from "/public/images/pink.png"
@@ -20,7 +20,7 @@ const Cig = () => {
                 <div className="p-4">
                     <a>
                         <Image
-                            src={Mockup}
+                            src={Paper}
                             alt="blue cigarette"
                             width={1000}
                             height={1000}
