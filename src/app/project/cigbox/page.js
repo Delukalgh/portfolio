@@ -1,6 +1,6 @@
 import styles from "./Cig.module.css";
 import Header from "../../../../components/Header";
-import Paper from "/public/images/paper.png"
+import Paper from "/public/images/Paper.png"
 import Blue from "/public/images/blue.png"
 import Green from "/public/images/green.png"
 import Pink from "/public/images/pink.png"
