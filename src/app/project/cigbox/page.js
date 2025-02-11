@@ -1,5 +1,6 @@
 import styles from "./Cig.module.css";
 import Header from "../../../../components/Header";
+import Scrollanimation from "../../../../components/Scroll"
 import Paper from "/public/images/Paper.png"
 import Blue from "/public/images/blue.png"
 import Green from "/public/images/green.png"
@@ -10,6 +11,7 @@ import Image from "next/image";
 const Cig = () => {
     return (
         <>
+            <Scrollanimation />
             <Header />
             <div className={styles.container}>
 
@@ -43,15 +45,15 @@ const Cig = () => {
                         />
                     </a>
                     <a>
-                        <Image 
+                        <Image
                             src={Green}
                             alt="green cigarette"
                             width={1000}
-                            height={1000}   
+                            height={1000}
                         />
                     </a>
                     <a>
-                        <Image 
+                        <Image
                             src={Pink}
                             alt="pink cigarette"
                             width={1000}

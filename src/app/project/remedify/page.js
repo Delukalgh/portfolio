@@ -1,4 +1,5 @@
 import Header from "../../../../components/Header"
+import Scrollanimation from "../../../../components/Scroll"
 import styles from "./Remedify.module.css";
 import Image from "next/image";
 import Cover from "/public/images/cover.jpg"
@@ -6,12 +7,11 @@ import Auto from "/public/images/automated.jpg"
 import Info from "/public/images/insight.jpg"
 import Primary from "/public/images/primarypersona.png"
 import Secondary from "/public/images/secondarypersona.png"
-import { iframe } from "framer-motion/client";
-import { useScroll, motion, useTransform } from "framer-motion";
 
 const Remedify = () => {
     return (
         <>
+            <Scrollanimation />
             <Header />
             <div className={styles.container}>
                 <div>

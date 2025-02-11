@@ -2,6 +2,7 @@
 import { useRef, useEffect } from 'react'
 import Image from "next/image";
 import Header from "../../../../components/Header";
+import Scrollanimation from '../../../../components/Scroll';
 import Cans from "/public/images/cans.png"
 import Cedar from "/public/images/cedarmock.png"
 import Pine from "/public/images/pinemock.png"
@@ -60,6 +61,7 @@ const Can = () => {
 
     return (
         <>
+            <Scrollanimation />
             <Header />
             <div className={styles.container}>
                 <div>

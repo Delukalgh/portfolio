@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from "react";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import Header from "../../components/Header";
+import Scrollanimation from "../../components/Scroll";
 import Image from "next/image";
 import Cans from "../../public/images/cans.png"
 import Blue from '/public/images/blue.png'
@@ -23,6 +24,7 @@ export default function Home() {
   const length = words.length;
   return (
     <>
+      <Scrollanimation />
       <Header />
       <div className={styles.container}>
 

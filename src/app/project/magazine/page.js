@@ -1,4 +1,5 @@
 import Header from "../../../../components/Header"
+import Scrollanimation from "../../../../components/Scroll"
 import styles from "./Magazine.module.css";
 import Image from "next/image";
 import Toyo from '/public/images/magmockup.png'
@@ -9,6 +10,7 @@ import Ten from "/public/images/pageten.png"
 const Magazine = () => {
     return (
         <>
+            <Scrollanimation />
             <Header />
             <div className={styles.container}>
                 <div>
