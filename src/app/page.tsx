@@ -56,7 +56,10 @@ export default function Home() {
           <div id="projects" className="flex flex-col work-links m-auto items-center relative  gap-10">
             <h1 className="flex justify-center font-bold text-[3em] text-[#FF5F00]">Projects</h1>
             <div className="flex flex-row gap-8">
-              <div>
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.8 }}
+              >
                 <a href="/project/can">
                   <Image
                     src={Cans}
@@ -66,8 +69,11 @@ export default function Home() {
                   />
                 </a>
 
-              </div>
-              <div>
+              </motion.div>
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.8 }}
+              >
                 <a href="/project/cigbox">
                   <Image
                     src={Blue}
@@ -76,12 +82,15 @@ export default function Home() {
                     height={500}
                   />
                 </a>
-              </div>
+              </motion.div>
             </div>
 
             <div className="flex flex-row gap-8">
 
-              <div>
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.8 }}
+              >
                 <a href="/project/magazine">
                   <Image
                     src={Toyo}
@@ -90,9 +99,12 @@ export default function Home() {
                     height={500}
                   />
                 </a>
-              </div>
+              </motion.div>
 
-              <div>
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.8 }}
+              >
                 <a href="/project/remedify">
                   <Image
                     src={Cover}
@@ -101,7 +113,7 @@ export default function Home() {
                     height={500}
                   />
                 </a>
-              </div>
+              </motion.div>
             </div>
 
           </div>
