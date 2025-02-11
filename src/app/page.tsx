@@ -34,6 +34,9 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.hcontainer} />
+        <div className="flex flex-col justify-center w-57%">
+          <h1 className="flex justify-center p-8 font-bold text-[3em] text-[#FF5F00]">Who am I</h1>
+        </div>
         <div className="flex justify-center ">
           <p
             className={styles.description}
@@ -48,49 +51,55 @@ export default function Home() {
         </div>
 
         <main className="flex mt-[12em] justify-center items-center">
-          <div className="flex flex-col work-links m-auto items-center relative h-[200vh] gap-10">
-            <div>
-              <a href="/project/can">
-                <Image
-                  src={Cans}
-                  alt="cans"
-                  width={900}
-                  height={900}
-                />
-              </a>
+          <div id="projects" className="flex flex-col work-links m-auto items-center relative  gap-10">
+            <h1 className="flex justify-center font-bold text-[3em] text-[#FF5F00]">Projects</h1>
+            <div className="flex flex-row gap-8">
+              <div>
+                <a href="/project/can">
+                  <Image
+                    src={Cans}
+                    alt="cans"
+                    width={500}
+                    height={500}
+                  />
+                </a>
 
-            </div>
-            <div>
-              <a href="/project/cigbox">
-                <Image
-                  src={Blue}
-                  alt='Blue Cigbox'
-                  width={'900'}
-                  height={'900'}
-                />
-              </a>
-            </div>
-
-            <div>
-              <a href="/project/magazine">
-                <Image
-                src={Toyo}
-                alt="magazine"
-                width={900}
-                height={900}
-                />
-              </a>
+              </div>
+              <div>
+                <a href="/project/cigbox">
+                  <Image
+                    src={Blue}
+                    alt='Blue Cigbox'
+                    width={500}
+                    height={500}
+                  />
+                </a>
+              </div>
             </div>
 
-            <div> 
-              <a href="/project/remedify">
-                <Image 
-                src={Cover}
-                alt="Remedify Cover"
-                width={900}
-                height={900}
-                />
-              </a>
+            <div className="flex flex-row gap-8">
+
+              <div>
+                <a href="/project/magazine">
+                  <Image
+                    src={Toyo}
+                    alt="magazine"
+                    width={500}
+                    height={500}
+                  />
+                </a>
+              </div>
+
+              <div>
+                <a href="/project/remedify">
+                  <Image
+                    src={Cover}
+                    alt="Remedify Cover"
+                    width={500}
+                    height={500}
+                  />
+                </a>
+              </div>
             </div>
 
           </div>

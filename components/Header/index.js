@@ -21,7 +21,7 @@ export default function Header() {
                 </div>
                 <div className={styles.navLinks}>
                     <ul className="">
-                        <li> <Link href="/project">Projects </Link></li>
+                        <li> <Link href="/#projects">Projects </Link></li>
                         <li> <Link href="/project">About </Link></li>
                         <li> <Link href="/contact">Contact </Link></li>
                     </ul>

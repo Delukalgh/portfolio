@@ -6,6 +6,8 @@ import Auto from "/public/images/automated.jpg"
 import Info from "/public/images/insight.jpg"
 import Primary from "/public/images/primarypersona.png"
 import Secondary from "/public/images/secondarypersona.png"
+import { iframe } from "framer-motion/client";
+import { useScroll, motion, useTransform } from "framer-motion";
 
 const Remedify = () => {
     return (
@@ -33,11 +35,11 @@ const Remedify = () => {
                         <p className="font-light text-[22px]">Remedify is an app designed with accessibility in mind to improve medical adherance rate.</p>
                     </div>
                     <div className="flex flex-col">
-                        <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">Additionale Links</h1>
+                        <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">Additional Links</h1>
                         <div className="flex flex-row gap-[4em] font-medium text-[18px] text-[#0097CE]">
                             <a href="https://www.remedify.ca/">Remedify Website</a>
                             <a href="https://remedify-blog.vercel.app/">Remedify Blog</a>
-                            <a href="https://github.com/yeenathan/asclepius">Remeify Repo</a>
+                            <a href="https://github.com/yeenathan/asclepius">Remedify Repo</a>
                         </div>
                     </div>
                 </div>
@@ -101,24 +103,30 @@ const Remedify = () => {
                     </div>
 
                 </div>
+
+                {/* <div className="flex flex-col w-[57%] mt-[3em]">
+                    <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">Style Guide</h1>
+                    <iframe src="https://www.figma.com/design/vdvsPbor7vGNL6QdMe2f2R/Style-Guide?node-id=9-145&t=ANy4wRiU13SGI3XE-0" title="Style Guide"></iframe>
+                </div> */}
+
                 <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
                     <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">Research</h1>
                     <p className="font-light text-[22px]">Numerous surveys and interviews were run by the members of the team to ensure that the idea of the app is refined
                         and validated.</p>
                     <div className="flex flex-row justify-between">
-                    <Image
-                        src={Primary}
-                        alt="primary persona"
-                        width={450}
-                        height={450}
-                    />
+                        <Image
+                            src={Primary}
+                            alt="primary persona"
+                            width={450}
+                            height={450}
+                        />
 
-                    <Image
-                        src={Secondary}
-                        alt="secondary persona"
-                        width={450}
-                        height={450}
-                    />
+                        <Image
+                            src={Secondary}
+                            alt="secondary persona"
+                            width={450}
+                            height={450}
+                        />
                     </div>
                     <p className="font-light text-[22px]">The persona's were built with the target audience in mind, which was refined by the interviews and surveys.</p>
                 </div>
