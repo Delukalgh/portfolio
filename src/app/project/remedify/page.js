@@ -15,7 +15,7 @@ const Remedify = () => {
             <Header />
             <div className={styles.container}>
                 <div>
-                    <h1 className="flex text-center font-bold text-[4em]">Remedify</h1>
+                    <h1 className="flex text-center font-bold text-[4em] text-[#FF5F00]">Remedify</h1>
                 </div>
 
                 <div className="p-4">

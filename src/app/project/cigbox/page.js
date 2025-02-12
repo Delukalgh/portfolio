@@ -16,7 +16,7 @@ const Cig = () => {
             <div className={styles.container}>
 
                 <div>
-                    <h1 className="font-bold text-[4em]">SOVEREIGN CIGARETTE</h1>
+                    <h1 className="font-bold text-[4em] text-[#FF5F00]">SOVEREIGN CIGARETTE</h1>
                 </div>
 
                 <div className="p-4">
@@ -31,7 +31,7 @@ const Cig = () => {
                 </div>
 
                 <div className="flex flex-col mt-[1em] w-[57%] gap-[5em]">
-                    <h1 className="flex justify-center font-bold text-[3em]">Logo Design Project</h1>
+                    <h1 className="flex justify-center font-bold text-[3em] text-[#FF5F00]">Logo Design Project</h1>
                     <p className="font-light text-[22px]">The design features vibrant backgrounds and playful graphics, blending them into an eye-catching and engaging aesthetic. The posters adopt an Art Deco style, evoking a sense of nostalgia for the older generation.</p>
                 </div>
 
