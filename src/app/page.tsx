@@ -56,20 +56,24 @@ export default function Home() {
           <div id="projects" className="flex flex-col work-links m-auto items-center relative  gap-10">
             <h1 className="flex justify-center font-bold text-[3em] text-[#FF5F00]">Projects</h1>
             <div className="flex flex-row gap-8">
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.8 }}
-              >
-                <a href="/project/can">
-                  <Image
-                    src={Cans}
-                    alt="cans"
-                    width={500}
-                    height={500}
-                  />
-                </a>
 
-              </motion.div>
+              <div className="block">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.8 }}
+                >
+                  <a href="/project/can">
+                    <Image
+                      src={Cans}
+                      alt="cans"
+                      width={500}
+                      height={500}
+                    />
+                  </a>
+
+                </motion.div>
+              </div>
+
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.8 }}
@@ -87,33 +91,38 @@ export default function Home() {
 
             <div className="flex flex-row gap-8">
 
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.8 }}
-              >
-                <a href="/project/magazine">
-                  <Image
-                    src={Toyo}
-                    alt="magazine"
-                    width={500}
-                    height={500}
-                  />
-                </a>
-              </motion.div>
+              <div className="block">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.8 }}
+                >
+                  <a href="/project/magazine">
+                    <Image
+                      src={Toyo}
+                      alt="magazine"
+                      width={500}
+                      height={500}
+                    />
+                  </a>
+                </motion.div>
+              </div>
 
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.8 }}
-              >
-                <a href="/project/remedify">
-                  <Image
-                    src={Cover}
-                    alt="Remedify Cover"
-                    width={500}
-                    height={500}
-                  />
-                </a>
-              </motion.div>
+              <div className="block">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.8 }}
+                >
+                  <a href="/project/remedify">
+                    <Image
+                      src={Cover}
+                      alt="Remedify Cover"
+                      width={500}
+                      height={500}
+                    />
+                  </a>
+                </motion.div>
+              </div>
+              
             </div>
 
           </div>
