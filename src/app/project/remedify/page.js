@@ -73,7 +73,7 @@ const Remedify = () => {
 
                 <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
                     <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">User Flow Map</h1>
-                    <iframe src="https://www.figma.com/board/yZQtaPQvVGlnF0E4j5yFgo/User-Flow-Map?node-id=0-1&t=05YgHip4AILWFZjZ-1" title="Figma user flow map"></iframe>
+                    <iframe width="100%" height="600" src="https://embed.figma.com/board/yZQtaPQvVGlnF0E4j5yFgo/User-Flow-Map?embed-host=share" title="Figma user flow map" />
                 </div>
 
                 <div className="flex flex-col w-[57%] mt-[3em]">
