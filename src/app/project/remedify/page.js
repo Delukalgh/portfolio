@@ -119,19 +119,7 @@ const Remedify = () => {
                     <p className="font-light text-[22px]">Numerous surveys and interviews were run by the members of the team to ensure that the idea of the app is refined
                         and validated.</p>
                     <div className="flex flex-row justify-between">
-                        <Image
-                            src={Primary}
-                            alt="primary persona"
-                            width={450}
-                            height={450}
-                        />
-
-                        <Image
-                            src={Secondary}
-                            alt="secondary persona"
-                            width={450}
-                            height={450}
-                        />
+                        <iframe width="100%" height="600" src="https://embed.figma.com/design/eqiBsR991DWqKMuktHQb1P/Persona?node-id=64-4&embed-host=share" title="User Persona" />
                     </div>
                     <p className="font-light text-[22px]">The persona's were built with the target audience in mind, which was refined by the interviews and surveys.</p>
                     <a
