@@ -71,6 +71,11 @@ const Remedify = () => {
                     </span>
                 </div>
 
+                <div className="flex flex-col w-[57%] mt-[3em]">
+                    <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">Style Guide</h1>
+                    <iframe width="100%" height="600" src="https://embed.figma.com/design/vdvsPbor7vGNL6QdMe2f2R/Style-Guide?node-id=0-1&embed-host=share" title="Style Guide"></iframe>
+                </div>
+
                 <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
                     <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">User Flow Map</h1>
                     <iframe width="100%" height="600" src="https://embed.figma.com/board/yZQtaPQvVGlnF0E4j5yFgo/User-Flow-Map?embed-host=share" title="Figma user flow map" />
@@ -108,11 +113,6 @@ const Remedify = () => {
                     </div>
 
                 </div>
-
-                {/* <div className="flex flex-col w-[57%] mt-[3em]">
-                    <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">Style Guide</h1>
-                    <iframe src="https://www.figma.com/design/vdvsPbor7vGNL6QdMe2f2R/Style-Guide?node-id=9-145&t=ANy4wRiU13SGI3XE-0" title="Style Guide"></iframe>
-                </div> */}
 
                 <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
                     <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">Research</h1>
