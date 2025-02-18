@@ -1,3 +1,4 @@
+"use client"
 import Header from "../../../../components/Header"
 import Scrollanimation from "../../../../components/Scroll"
 import styles from "./Remedify.module.css";
@@ -7,6 +8,7 @@ import Auto from "/public/images/automated.jpg"
 import Info from "/public/images/insight.jpg"
 import Primary from "/public/images/primarypersona.png"
 import Secondary from "/public/images/secondarypersona.png"
+import { motion } from "framer-motion"
 
 const Remedify = () => {
     return (
@@ -36,10 +38,25 @@ const Remedify = () => {
                     </div>
                     <div className="flex flex-col">
                         <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">Additional Links</h1>
-                        <div className="flex flex-row gap-[4em] font-medium text-[18px] text-[#0097CE]">
-                            <a href="https://www.remedify.ca/" target="_blank">Remedify Website</a>
-                            <a href="https://remedify-blog.vercel.app/" target="_blank">Remedify Blog</a>
-                            <a href="https://github.com/yeenathan/asclepius" target="_blank">Remedify Repo</a>
+                        <div className="flex flex-row gap-[2em] font-medium text-[18px]">
+                            <a href="https://www.remedify.ca/" target="_blank">
+                                <motion.button
+                                    whileHover={{ scale: 1.1 }}
+                                    whileTap={{ scale: 0.8 }}
+                                    className="flex p-4 rounded-[8px] bg-[#FF5F00]">Remedify Website</motion.button>
+                            </a>
+                            <a href="https://remedify-blog.vercel.app/" target="_blank">
+                                <motion.button
+                                    whileHover={{ scale: 1.1 }}
+                                    whileTap={{ scale: 0.8 }}
+                                    className="flex p-4 rounded-[8px] bg-[#FF5F00]">Remedify Blog</motion.button>
+                            </a>
+                            <a href="https://github.com/yeenathan/asclepius" target="_blank">
+                                <motion.button
+                                    whileHover={{ scale: 1.1 }}
+                                    whileTap={{ scale: 0.8 }}
+                                    className="flex p-4 rounded-[8px] bg-[#FF5F00]">Remedify Repo</motion.button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -71,9 +88,10 @@ const Remedify = () => {
                     </span>
                 </div>
 
-                <div className="flex flex-col w-[57%] mt-[3em]">
+                <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
                     <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">Style Guide</h1>
-                    <iframe width="100%" height="600" src="https://embed.figma.com/design/vdvsPbor7vGNL6QdMe2f2R/Style-Guide?node-id=0-1&embed-host=share" title="Style Guide"></iframe>
+                    <p className="font-light text-[22px]">The fonts and colors used in Remedify are designed to create a balance of vibrancy and calmness, offering users an engaging yet soothing experience.</p>
+                    <iframe width="100%" height="600" src="https://embed.figma.com/board/Me53ST2GYZB9Ev52YIBToR/Style-Guide?embed-host=share" title="Style Guide"></iframe>
                 </div>
 
                 <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
@@ -119,7 +137,7 @@ const Remedify = () => {
                     <p className="font-light text-[22px]">Numerous surveys and interviews were run by the members of the team to ensure that the idea of the app is refined
                         and validated.</p>
                     <div className="flex flex-row justify-between">
-                        <iframe width="100%" height="600" src="https://embed.figma.com/design/eqiBsR991DWqKMuktHQb1P/Persona?node-id=64-4&embed-host=share" title="User Persona" />
+                        <iframe width="100%" height="600" src="https://embed.figma.com/board/aeFXB4eFigRIOoPfr6cmeA/Persona?node-id=0-1&embed-host=share" title="User Persona" />
                     </div>
                     <p className="font-light text-[22px]">The persona's were built with the target audience in mind, which was refined by the interviews and surveys.</p>
                     <a
