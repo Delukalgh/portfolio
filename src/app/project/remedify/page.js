@@ -22,7 +22,7 @@ const Remedify = () => {
                     <a>
                         <Image
                             src={Cover}
-                            alt="blue cigarette"
+                            alt="remedify cover"
                             width={1000}
                             height={1000}
                         />
@@ -37,9 +37,9 @@ const Remedify = () => {
                     <div className="flex flex-col">
                         <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">Additional Links</h1>
                         <div className="flex flex-row gap-[4em] font-medium text-[18px] text-[#0097CE]">
-                            <a href="https://www.remedify.ca/">Remedify Website</a>
-                            <a href="https://remedify-blog.vercel.app/">Remedify Blog</a>
-                            <a href="https://github.com/yeenathan/asclepius">Remedify Repo</a>
+                            <a href="https://www.remedify.ca/" target="_blank">Remedify Website</a>
+                            <a href="https://remedify-blog.vercel.app/" target="_blank">Remedify Blog</a>
+                            <a href="https://github.com/yeenathan/asclepius" target="_blank">Remedify Repo</a>
                         </div>
                     </div>
                 </div>
@@ -69,6 +69,11 @@ const Remedify = () => {
                         challenges—where the risk of missed or incorrect doses is high. With a strong emphasis on accessibility, Remedify not only
                         provides smart reminders but also offers a comprehensive medication library, ensuring users stay informed and on track with their treatment.
                     </span>
+                </div>
+
+                <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
+                    <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">User Flow Map</h1>
+                    <iframe src="https://www.figma.com/board/yZQtaPQvVGlnF0E4j5yFgo/User-Flow-Map?node-id=0-1&t=05YgHip4AILWFZjZ-1" title="Figma user flow map"></iframe>
                 </div>
 
                 <div className="flex flex-col w-[57%] mt-[3em]">
@@ -129,6 +134,13 @@ const Remedify = () => {
                         />
                     </div>
                     <p className="font-light text-[22px]">The persona's were built with the target audience in mind, which was refined by the interviews and surveys.</p>
+                    <a
+                        href="https://www.figma.com/board/WK9WoDPIFcwGfjfifl3ZOr/Competitive-Analysis-(Latest-Ver.)?node-id=0-1&t=f52PRrMN5V2NQOsU-1"
+                        target="_blank"
+                        className="font-medium text-[22px] text-[#0097CE]"
+                    >
+                        Read the full competitive analysis here!
+                    </a>
                 </div>
             </div>
         </>
