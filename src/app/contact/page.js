@@ -12,6 +12,7 @@ export default function Contact() {
                 <div className="flex mt-[5em]">
                     <h1 className="font-bold text-[3em] text-[#FF5F00]">Contact</h1>
                 </div>
+                <div className={styles.line} />
                 <div className="flex flex-row justify-between w-[57%] mt-[3em]">
                     <div className="flex flex-col gap-[1em]">
                         <p className="font-bold text-[2em] text-[#0097CE]">
