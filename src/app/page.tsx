@@ -36,10 +36,10 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.hcontainer} />
-        <div className="flex flex-col justify-center w-57%">
+        <div id="about" className="flex flex-col justify-center">
           <h1 className="flex justify-center p-8 font-bold text-[3em] text-[#FF5F00]">Who am I</h1>
         </div>
-        <div className="flex justify-center ">
+        <div className="flex flex-col w-[57%] justify-center gap-[2em]">
           <p
             className={styles.description}
             ref={element}
@@ -50,6 +50,16 @@ export default function Home() {
               return <Word key={i} range={[start, end]} progress={scrollYProgress}>{word} </Word>;
             })}
           </p>
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            className="flex justify-center"
+          >
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.8 }}
+              className="flex p-4 pl-8 pr-8 rounded-[8px] bg-[#FF5F00] text-[16px]">Resume</motion.button>
+          </a>
         </div>
 
         <main className="flex mt-[12em] justify-center items-center">
@@ -122,7 +132,7 @@ export default function Home() {
                   </a>
                 </motion.div>
               </div>
-              
+
             </div>
 
           </div>

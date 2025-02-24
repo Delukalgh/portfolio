@@ -22,7 +22,7 @@ export default function Header() {
                 <div className={styles.navLinks}>
                     <ul className="">
                         <li> <Link href="/#projects">Projects </Link></li>
-                        <li> <Link href="/project">About </Link></li>
+                        <li> <Link href="/#about">About </Link></li>
                         <li> <Link href="/contact">Contact </Link></li>
                     </ul>
                 </div>
