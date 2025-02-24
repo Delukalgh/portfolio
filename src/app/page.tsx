@@ -39,7 +39,7 @@ export default function Home() {
         <div id="about" className="flex flex-col justify-center">
           <h1 className="flex justify-center p-8 font-bold text-[3em] text-[#FF5F00]">Who am I</h1>
         </div>
-        <div className="flex flex-col w-[57%] justify-center gap-[2em]">
+        <div className="flex flex-col w-[100%] items-center justify-center gap-[2em]">
           <p
             className={styles.description}
             ref={element}
