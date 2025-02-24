@@ -89,9 +89,14 @@ const Remedify = () => {
                 </div>
 
                 <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
+                    <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">Hi-Fi Prototype</h1>
+                    <iframe width="100%" height="600" src="https://embed.figma.com/proto/4ni9gyLkBDkeQNBfia2rgo/Remedify-Hi-fi?node-id=1797-14295&starting-point-node-id=1797%3A14295&embed-host=share" title="Figma Hi-Fi Prototype" />
+                </div>
+
+                <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
                     <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">Style Guide</h1>
                     <p className="font-light text-[22px]">The fonts and colors used in Remedify are designed to create a balance of vibrancy and calmness, offering users an engaging yet soothing experience.</p>
-                    <iframe width="100%" height="600" src="https://embed.figma.com/board/Me53ST2GYZB9Ev52YIBToR/Style-Guide?embed-host=share" title="Style Guide"></iframe>
+                    <iframe width="100%" height="600" src="https://embed.figma.com/board/Me53ST2GYZB9Ev52YIBToR/Style-Guide?embed-host=share" title="Style Guide" />
                 </div>
 
                 <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
