@@ -17,19 +17,18 @@ export default function Contact() {
                         <p className="font-bold text-[2em] text-[#0097CE]">
                             Mail
                         </p>
-                        <a className="text-[16px]">
-                            deluka.lgh@gmail.com
-                        </a>
-
-                        {/* <Link href="">
+                        <Link
+                            href="mailto: deluka.lgh@gmail.com"
+                            target="_blank"
+                        >
                             <motion.button
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.8 }}
                                 className="flex p-4 rounded-[8px] bg-[#FF5F00]"
                             >
-                                deluka.lgh@gmail.com
+                                My email
                             </motion.button>
-                        </Link> */}
+                        </Link>
                     </div>
 
                     <div className="flex flex-col gap-[1em]">
