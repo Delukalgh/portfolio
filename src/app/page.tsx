@@ -10,6 +10,7 @@ import Blue from '/public/images/blue.png'
 import Toyo from '/public/images/magmockup.png'
 import Cover from '/public/images/cover.jpg'
 import { useScroll, motion, useTransform } from "framer-motion";
+import { AuroraBackground } from "@/components/aurora-background";
 
 export default function Home() {
 
@@ -24,6 +25,8 @@ export default function Home() {
   const length = words.length;
   return (
     <>
+    <AuroraBackground>
+
       <Scrollanimation />
       <Header />
       <div className={styles.container}>
@@ -43,7 +46,7 @@ export default function Home() {
           <p
             className={styles.description}
             ref={element}
-          >
+            >
             {words.map((word, i) => {
               const start = i / length;
               const end = start + (1 / length);
@@ -54,7 +57,7 @@ export default function Home() {
             href="/resume.pdf"
             target="_blank"
             className="flex justify-center"
-          >
+            >
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.8 }}
@@ -71,14 +74,14 @@ export default function Home() {
                 <motion.div
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.8 }}
-                >
+                  >
                   <a href="/project/can">
                     <Image
                       src={Cans}
                       alt="cans"
                       width={500}
                       height={500}
-                    />
+                      />
                   </a>
 
                 </motion.div>
@@ -87,14 +90,14 @@ export default function Home() {
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.8 }}
-              >
+                >
                 <a href="/project/cigbox">
                   <Image
                     src={Blue}
                     alt='Blue Cigbox'
                     width={500}
                     height={500}
-                  />
+                    />
                 </a>
               </motion.div>
             </div>
@@ -105,14 +108,14 @@ export default function Home() {
                 <motion.div
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.8 }}
-                >
+                  >
                   <a href="/project/magazine">
                     <Image
                       src={Toyo}
                       alt="magazine"
                       width={500}
                       height={500}
-                    />
+                      />
                   </a>
                 </motion.div>
               </div>
@@ -121,14 +124,14 @@ export default function Home() {
                 <motion.div
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.8 }}
-                >
+                  >
                   <a href="/project/remedify">
                     <Image
                       src={Cover}
                       alt="Remedify Cover"
                       width={500}
                       height={500}
-                    />
+                      />
                   </a>
                 </motion.div>
               </div>
@@ -139,7 +142,7 @@ export default function Home() {
         </main>
 
       </div>
-
+    </AuroraBackground>
     </>
   );
 }
@@ -152,7 +155,7 @@ interface WordProps {
 
 const Word: React.FC<WordProps> = ({ children, range, progress }) => {
   const opacity = useTransform(progress, range, [0, 1]);
-
+  
   return (
     <motion.span style={{ opacity }} className={styles.word}>
       {children}{" "}
@@ -161,11 +164,12 @@ const Word: React.FC<WordProps> = ({ children, range, progress }) => {
 };
 
 // const Word = ({ children, range, progress }) => {
-//   const opacity = useTransform(progress, range, [0, 1]);
-
-//   return (
-//     <motion.span style={{ opacity }} className={styles.word}>
-//       {children}{" "}
-//     </motion.span>
-//   );
-// }
+  //   const opacity = useTransform(progress, range, [0, 1]);
+  
+  //   return (
+    //     <motion.span style={{ opacity }} className={styles.word}>
+    //       {children}{" "}
+    //     </motion.span>
+    //   );
+    // }
+    
