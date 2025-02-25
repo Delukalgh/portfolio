@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    padding: 2em;
+    padding-left: 4em;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}

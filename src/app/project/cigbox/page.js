@@ -40,24 +40,24 @@ const Cig = () => {
                         <Image
                             src={Blue}
                             alt="blue cigarette"
-                            width={1000}
-                            height={1000}
+                            width={600}
+                            height={600}
                         />
                     </a>
                     <a>
                         <Image
                             src={Green}
                             alt="green cigarette"
-                            width={1000}
-                            height={1000}
+                            width={600}
+                            height={600}
                         />
                     </a>
                     <a>
                         <Image
                             src={Pink}
                             alt="pink cigarette"
-                            width={1000}
-                            height={1000}
+                            width={600}
+                            height={600}
                         />
                     </a>
                 </div>
