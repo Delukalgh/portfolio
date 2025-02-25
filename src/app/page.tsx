@@ -11,7 +11,7 @@ import Toyo from "/public/images/magmockup.png";
 import Cover from "/public/images/cover.jpg";
 import { useScroll, motion, useTransform } from "framer-motion";
 import { AuroraBackground } from "@/components/aurora-background";
-import Footer from "../../components/Footer"
+import Footer from "../../components/Footer";
 
 export default function Home() {
   // const element = useRef(null);
@@ -33,6 +33,14 @@ export default function Home() {
           <div className="min-h-screen">
             <Header />
             <section className="relative flex flex-row justify-around pt-[5em]">
+              <div>
+                <div className={styles.title}>
+                  <p className="text-[#FF5F00] text-[6em]">Deluka <span>LGH</span></p>{" "}
+                  <p className="text-[28px] font-light">
+                    Front-End Developer <br></br>UX/UI Designer
+                  </p>
+                </div>
+              </div>
               <div className="block">
                 <motion.div
                   whileHover={{ scale: 1.1 }}
@@ -48,14 +56,6 @@ export default function Home() {
                     />
                   </a>
                 </motion.div>
-              </div>
-              <div>
-                <div className={styles.title}>
-                  <p>Hello I'm, Deluka LGH</p>{" "}
-                  <p>
-                    <span>Front-End Developer</span>UX/UI Designer
-                  </p>
-                </div>
               </div>
             </section>
           </div>
