@@ -35,7 +35,7 @@ export default function Home() {
             <section className="relative flex flex-row justify-around pt-[5em]">
               <div>
                 <div className={styles.title}>
-                  <p className="text-[#FF5F00] text-[6em]">Hasintha <span>LGH</span></p>{" "}
+                  <p className="text-[#FF5F00] text-[6em]">Deluka <span>LGH</span></p>{" "}
                   <p className="text-[28px] font-light">
                     Front-End Developer <br></br>UX/UI Designer
                   </p>
