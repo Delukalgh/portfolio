@@ -6,6 +6,7 @@ import Header from "../../components/Header";
 import Scrollanimation from "../../components/Scroll";
 import Image from "next/image";
 import Cans from "../../public/images/cans.png";
+import Beercan from "../../public/images/beercan.png";
 import Blue from "/public/images/blue.png";
 import Toyo from "/public/images/magmockup.png";
 import Cover from "/public/images/cover.jpg";
@@ -64,79 +65,96 @@ export default function Home() {
           <main className="flex mt-[12em] justify-center items-center">
             <div
               id="projects"
-              className="flex flex-col work-links m-auto items-center relative  gap-10"
+              className="flex flex-col work-links m-auto items-center relative  gap-[10em]"
             >
               <h1 className="flex justify-center font-bold text-[3em] text-[#FF5F00]">
                 Projects
               </h1>
-              <div className="flex flex-row gap-8">
-                <div className="block">
-                  <motion.div
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.8 }}
-                  >
-                    <a href="/project/can">
-                      <Image
-                        className="rounded-[20px]"
-                        src={Cans}
-                        alt="cans"
-                        width={500}
-                        height={500}
-                      />
-                    </a>
-                  </motion.div>
-                </div>
 
+              <div className="block">
                 <motion.div
-                  whileHover={{ scale: 1.1 }}
+                  whileHover={{
+                    scale: 1.1,
+                    border: "6px solid #0097CE",
+                    background: "#0097CE",
+                    borderRadius: "20px",
+                  }}
                   whileTap={{ scale: 0.8 }}
                 >
-                  <a href="/project/cigbox">
+                  <a href="/project/can">
                     <Image
-                      className="rounded-[20px]"
-                      src={Blue}
-                      alt="Blue Cigbox"
-                      width={500}
-                      height={500}
+                      className="rounded-[20px] bg-white"
+                      src={Beercan}
+                      alt="cans"
+                      width={1000}
+                      height={1000}
                     />
                   </a>
                 </motion.div>
               </div>
 
-              <div className="flex flex-row gap-8">
-                <div className="block">
-                  <motion.div
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.8 }}
-                  >
-                    <a href="/project/magazine">
-                      <Image
-                        className="rounded-[20px]"
-                        src={Toyo}
-                        alt="magazine"
-                        width={500}
-                        height={500}
-                      />
-                    </a>
-                  </motion.div>
-                </div>
+              <motion.div
+                whileHover={{
+                  scale: 1.1,
+                  border: "6px solid #0097CE",
+                  background: "#0097CE",
+                  borderRadius: "20px",
+                }}
+                whileTap={{ scale: 0.8 }}
+              >
+                <a href="/project/cigbox">
+                  <Image
+                    className="rounded-[20px]"
+                    src={Blue}
+                    alt="Blue Cigbox"
+                    width={500}
+                    height={500}
+                  />
+                </a>
+              </motion.div>
 
-                <div className="block">
-                  <motion.div
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.8 }}
-                  >
-                    <a href="/project/remedify">
-                      <Image
-                        className="rounded-[20px]"
-                        src={Cover}
-                        alt="Remedify Cover"
-                        width={500}
-                        height={500}
-                      />
-                    </a>
-                  </motion.div>
-                </div>
+              <div className="block">
+                <motion.div
+                  whileHover={{
+                    scale: 1.1,
+                    border: "6px solid #0097CE",
+                    background: "#0097CE",
+                    borderRadius: "20px",
+                  }}
+                  whileTap={{ scale: 0.8 }}
+                >
+                  <a href="/project/magazine">
+                    <Image
+                      className="rounded-[20px]"
+                      src={Toyo}
+                      alt="magazine"
+                      width={1000}
+                      height={1000}
+                    />
+                  </a>
+                </motion.div>
+              </div>
+
+              <div className="block">
+                <motion.div
+                  whileHover={{
+                    scale: 1.1,
+                    border: "6px solid #0097CE",
+                    background: "#0097CE",
+                    borderRadius: "20px",
+                  }}
+                  whileTap={{ scale: 0.8 }}
+                >
+                  <a href="/project/remedify">
+                    <Image
+                      className="rounded-[20px]"
+                      src={Cover}
+                      alt="Remedify Cover"
+                      width={1000}
+                      height={1000}
+                    />
+                  </a>
+                </motion.div>
               </div>
             </div>
           </main>

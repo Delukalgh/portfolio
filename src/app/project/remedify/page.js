@@ -83,7 +83,7 @@ const Remedify = () => {
             <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
               Tools
             </h1>
-            <ul className="pl-5 list-disc grid grid-cols-2 ">
+            <ul className="pl-5 list-disc grid grid-cols-2 text-[18px]">
               <li>Expo/React Native</li>
               <li>Azure cloud functions & blob storage</li>
               <li>OpenAI GPT-4o mini</li>
