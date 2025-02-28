@@ -138,7 +138,7 @@ export default function Home() {
               </div>
             </div>
           </main>
-          <div id="about" className="flex flex-col justify-center items-center">
+          <div id="about" className="flex flex-col justify-center items-center pt-[8em]">
             <h1 className="flex justify-center p-8 font-bold text-[3em] text-[#FF5F00]">
               Who am I
             </h1>
