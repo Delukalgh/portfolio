@@ -15,8 +15,9 @@
 
 .title > p > span {
     font-weight: lighter;
-    color: #FF5F00;
+    color: #0097CE;
     opacity: 70%;
+    font-weight: bold;
 
 }
 
