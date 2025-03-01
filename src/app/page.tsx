@@ -6,7 +6,7 @@ import Header from "../../components/Header";
 import Scrollanimation from "../../components/Scroll";
 import Image from "next/image";
 import Cans from "../../public/images/cans.png";
-import Beercan from "../../public/images/beercan.png";
+import Cancover from "../../public/images/Can2.png";
 import Blue from "/public/images/blue.png";
 import Toyo from "/public/images/magmockup.png";
 import Cover from "/public/images/cover.jpg";
@@ -83,13 +83,17 @@ export default function Home() {
                 >
                   <a href="/project/can">
                     <Image
-                      className="rounded-[20px] bg-white"
-                      src={Beercan}
+                      src={Cancover}
                       alt="cans"
                       width={1000}
                       height={1000}
                     />
                   </a>
+                  <div className="flex justify-center pt-[18px]">
+                    <h1 className="text-[28px] font-medium text-[#FF5F00]">
+                      Evergreen Brewing
+                    </h1>
+                  </div>
                 </motion.div>
               </div>
 
@@ -111,6 +115,11 @@ export default function Home() {
                     height={500}
                   />
                 </a>
+                <div className="flex justify-center pt-[18px]">
+                  <h1 className="text-[28px] font-medium text-[#FF5F00]">
+                    Sovereign Cigarettes
+                  </h1>
+                </div>
               </motion.div>
 
               <div className="block">
@@ -132,6 +141,11 @@ export default function Home() {
                       height={1000}
                     />
                   </a>
+                  <div className="flex justify-center pt-[18px]">
+                    <h1 className="text-[28px] font-medium text-[#FF5F00]">
+                      Spaces of Serenity: The Visionary Architecture of Toyo Ito
+                    </h1>
+                  </div>
                 </motion.div>
               </div>
 
@@ -149,11 +163,16 @@ export default function Home() {
                     <Image
                       className="rounded-[20px]"
                       src={Cover}
-                      alt="Remedify Cover"
+                      alt="Remedify Cover"  
                       width={1000}
                       height={1000}
                     />
                   </a>
+                  <div className="flex justify-center pt-[18px]">
+                    <h1 className="text-[28px] font-medium text-[#FF5F00]">
+                      Remediy
+                    </h1>
+                  </div>
                 </motion.div>
               </div>
             </div>
