@@ -170,7 +170,7 @@ export default function Home() {
                   </a>
                   <div className="flex justify-center pt-[18px]">
                     <h1 className="text-[28px] font-medium text-[#FF5F00]">
-                      Remediy
+                      Remedify
                     </h1>
                   </div>
                 </motion.div>
