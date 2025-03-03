@@ -302,6 +302,17 @@ const Remedify = () => {
             />
           </a>
         </div>
+
+        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
+          <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
+            Marketing Video
+          </h1>
+          <a>
+            <video width={1000} controls muted>
+              <source src="/videos/visual_story.mp4" type="video/mp4" />
+            </video>
+          </a>
+        </div>
       </div>
       <Footer />
     </>
