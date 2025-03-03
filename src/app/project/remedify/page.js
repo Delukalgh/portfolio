@@ -73,7 +73,7 @@ const Remedify = () => {
                   whileTap={{ scale: 0.8 }}
                   className="flex p-4 rounded-[8px] bg-[#FF5F00]"
                 >
-                  Remedify Repo
+                  Remedify Repository
                 </motion.button>
               </a>
             </div>
