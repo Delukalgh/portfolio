@@ -177,49 +177,6 @@ export default function Home() {
               </div>
             </div>
           </main>
-          <div
-            id="about"
-            className="flex flex-col justify-center items-center pt-[8em]"
-          >
-            <h1 className="flex justify-center p-8 font-bold text-[3em] text-[#FF5F00]">
-              Who am I
-            </h1>
-            <div className="flex flex-col w-[60%] items-center justify-center gap-[2em]">
-              <p className={styles.description}>
-                Front-End Developer and UX/UI Designer with experience in
-                creating responsive, user-friendly web applications using HTML,
-                CSS, JavaScript, and frameworks such as React. Skilled in
-                translating design wireframes into high-quality code, optimizing
-                performance, and ensuring cross-browser compatibility.
-                {/* {words.map((word, i) => {
-                  const start = i / length;
-                  const end = start + 1 / length;
-                  return (
-                    <Word
-                      key={i}
-                      range={[start, end]}
-                      progress={scrollYProgress}
-                    >
-                      {word}{" "}
-                    </Word>
-                  );
-                })} */}
-              </p>
-              <a
-                href="/resume.pdf"
-                target="_blank"
-                className="flex justify-center"
-              >
-                <motion.button
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.8 }}
-                  className="flex p-4 pl-8 pr-8 rounded-[8px] bg-[#FF5F00] text-[16px]"
-                >
-                  Resume
-                </motion.button>
-              </a>
-            </div>
-          </div>
         </div>
       </AuroraBackground>
       <Footer />
