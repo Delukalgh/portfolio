@@ -28,13 +28,9 @@ const Remedify = () => {
 
         <div className="p-4">
           <a>
-            <iframe
-              className="rounded-[20px]"
-              width="100%"
-              height="600"
-              src="https://embed.figma.com/proto/4ni9gyLkBDkeQNBfia2rgo/Remedify-Hi-fi?node-id=1797-14295&starting-point-node-id=1797%3A14295&embed-host=share"
-              title="Figma Hi-Fi Prototype"
-            />
+            <video width={350} controls>
+              <source src="/videos/demo.mp4" type="video/mp4" />
+            </video>
           </a>
         </div>
 
