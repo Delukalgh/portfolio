@@ -3,7 +3,7 @@ import Header from "../../../components/Header";
 import styles from "./About.module.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Photo from "/public/images/portfolio.jpg";
+import Photo from "/public/images/portfolio.JPG"
 import Image from "next/image";
 
 export default function About() {
