@@ -5,10 +5,14 @@ import styles from "./Remedify.module.css";
 import Image from "next/image";
 import Cover from "/public/images/cover.jpg";
 import Auto from "/public/images/automated.jpg";
+import Wireframe from "/public/images/wireframe.png";
 import Info from "/public/images/insight.jpg";
 import Primary from "/public/images/primarypersona.png";
 import Secondary from "/public/images/secondarypersona.png";
 import { motion } from "framer-motion";
+import Footer from "../../../../components/Footer";
+import Color from "/public/images/color.png";
+import Font from "/public/images/fonts.png";
 
 const Remedify = () => {
   return (
@@ -24,17 +28,18 @@ const Remedify = () => {
 
         <div className="p-4">
           <a>
-            <Image
-              src={Cover}
-              alt="remedify cover"
-              width={1000}
-              height={1000}
+            <iframe
+              className="rounded-[20px]"
+              width="100%"
+              height="600"
+              src="https://embed.figma.com/proto/4ni9gyLkBDkeQNBfia2rgo/Remedify-Hi-fi?node-id=1797-14295&starting-point-node-id=1797%3A14295&embed-host=share"
+              title="Figma Hi-Fi Prototype"
             />
           </a>
         </div>
 
-        <div className="flex flex-col mt-[1em] w-[57%] gap-[2em]">
-          <div>
+        <div className="flex flex-col mt-[6em] w-[57%] gap-[2em]">
+          <div className="flex flex-col gap-[1em]">
             <h1 className="flex justify-center font-bold text-[3em] text-[#FF5F00]">
               Medication Reminder App
             </h1>
@@ -43,11 +48,11 @@ const Remedify = () => {
               medical adherance rate.
             </p>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col gap-[1em]">
             <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
               Additional Links
             </h1>
-            <div className="flex flex-row gap-[2em] font-medium text-[18px]">
+            <div className="flex flex-row gap-[1em] font-medium text-[18px]">
               <a href="https://www.remedify.ca/" target="_blank">
                 <motion.button
                   whileHover={{ scale: 1.1 }}
@@ -94,10 +99,11 @@ const Remedify = () => {
           </div>
         </div>
 
-        <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
+        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
           <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
             Reason
           </h1>
+          <Image src={Cover} alt="remedify cover" width={1000} height={1000} />
           <p className="font-light text-[22px]">
             Studies show that only about 50% of patients with chronic illnesses
             take their medications as prescribed. The two main obstacles?
@@ -115,20 +121,13 @@ const Remedify = () => {
           </span>
         </div>
 
-        <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
+        {/* <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
           <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
             Hi-Fi Prototype
           </h1>
-          <iframe
-            className="rounded-[20px]"
-            width="100%"
-            height="600"
-            src="https://embed.figma.com/proto/4ni9gyLkBDkeQNBfia2rgo/Remedify-Hi-fi?node-id=1797-14295&starting-point-node-id=1797%3A14295&embed-host=share"
-            title="Figma Hi-Fi Prototype"
-          />
-        </div>
+        </div> */}
 
-        <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
+        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
           <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
             Style Guide
           </h1>
@@ -137,13 +136,37 @@ const Remedify = () => {
             balance of vibrancy and calmness, offering users an engaging yet
             soothing experience.
           </p>
-          <iframe
-            className="rounded-[20px]"
-            width="100%"
-            height="600"
-            src="https://embed.figma.com/board/Me53ST2GYZB9Ev52YIBToR/Style-Guide?embed-host=share"
-            title="Style Guide"
-          />
+          <div className="flex flex-col mt-[2em] gap-[1em]">
+            <h1 className="flex justify-start font-bold text-[2em] text-[#0097CE]">
+              Colors
+            </h1>
+            <p className="font-light text-[22px]">
+              The color palette of our app is designed to be both vibrant and
+              calming, combining warm oranges with cool blues and greens for a
+              balanced user experience. The orange tones add energy and
+              positivity, creating a lively and engaging atmosphere. Meanwhile,
+              the light green and light blue hues provide a sense of calm and
+              reassurance. The neutral silver-white color enhances simplicity
+              and cleanliness, allowing the primary and secondary colors to
+              stand out without overwhelming the user, ensuring a friendly and
+              approachable interface.
+            </p>
+            <Image src={Color} alt="Color pallet" width={1000} height={1000} />
+          </div>
+          <div className="flex flex-col mt-[2em] gap-[1em]">
+            <h1 className="flex justify-start font-bold text-[2em] text-[#0097CE]">
+              Fonts
+            </h1>
+            <p className="font-light text-[22px]">
+              The Poppins font is used for its rounded, friendly appearance,
+              creating a welcoming and approachable feel. As a sans-serif font,
+              it is clear and easy to read, making it ideal for users of all
+              ages, especially the elderly. Bold weights are applied to headings
+              and subheadings to enhance readability, ensuring that important
+              information stands out.
+            </p>
+            <Image src={Font} alt="Fonts" width={1000} height={1000} />
+          </div>
         </div>
 
         <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
@@ -236,7 +259,41 @@ const Remedify = () => {
             Read the full competitive analysis here!
           </a>
         </div>
+
+        <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
+          <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
+            Wireframe
+          </h1>
+          <p className="font-light text-[22px]">
+            This was the first wireframe created for Remedify. Initially, the
+            app included many ideas and features, but it ultimately pivoted to
+            focus on improving drug adherence. Scroll down to see the
+            high-fidelity version of the app ↓.
+          </p>
+          <Image
+            src={Wireframe}
+            alt="remedify wireframe"
+            width={1000}
+            height={1000}
+          />
+        </div>
+
+        <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
+          <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
+            Hi-Fi Prototype
+          </h1>
+          <a>
+            <iframe
+              className="rounded-[20px]"
+              width="100%"
+              height="600"
+              src="https://embed.figma.com/proto/4ni9gyLkBDkeQNBfia2rgo/Remedify-Hi-fi?node-id=1797-14295&starting-point-node-id=1797%3A14295&embed-host=share"
+              title="Figma Hi-Fi Prototype"
+            />
+          </a>
+        </div>
       </div>
+      <Footer />
     </>
   );
 };
