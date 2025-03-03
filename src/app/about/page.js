@@ -13,7 +13,7 @@ export default function About() {
       <div className={styles.container}>
         <div className="flex flex-row w-[60%]">
           <div className="flex flex-col">
-            <Image src={Photo} alt="me" width={500}></Image>
+            <Image src={Photo} alt="me" width={500} height={500}></Image>
           </div>
           <div className="flex flex-col items-center gap-[1em]">
             <h1 className="flex justify-center font-bold text-[3em] text-[#FF5F00]">
