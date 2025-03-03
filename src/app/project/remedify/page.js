@@ -169,7 +169,7 @@ const Remedify = () => {
           </div>
         </div>
 
-        <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
+        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
           <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
             User Flow Map
           </h1>
@@ -182,12 +182,14 @@ const Remedify = () => {
           />
         </div>
 
-        <div className="flex flex-col w-[57%] mt-[3em]">
+        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
           <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
             Main Features
           </h1>
-          <div className="flex flex-col gap-[3em]">
-            <p className="font-light text-[22px]">Automated Scanning</p>
+          <div className="flex flex-col gap-[1em]">
+            <h1 className="flex justify-start font-bold text-[2em] text-[#0097CE]">
+              Automated Scanning
+            </h1>
             <Image
               className="rounded-[20px]"
               src={Auto}
@@ -196,7 +198,7 @@ const Remedify = () => {
               height={1000}
             />
           </div>
-          <div className="flex flex-col mt-[8px]">
+          <div className="flex flex-col gap-[1em]">
             <p className="font-light text-[22px]">
               Automated scanning for ease of use referencing information from
               the Canadian Drug Product Database.
@@ -206,8 +208,10 @@ const Remedify = () => {
               blob storage.
             </p>
           </div>
-          <div className="flex flex-col gap-[3em] mt-[3em]">
-            <p className="font-light text-[22px]">Generated Information</p>
+          <div className="flex flex-col gap-[1em] mt-[2em]">
+            <h1 className="flex justify-start font-bold text-[2em] text-[#0097CE]">
+              Generated Information
+            </h1>
             <Image
               className="rounded-[20px]"
               src={Info}
@@ -215,8 +219,6 @@ const Remedify = () => {
               width={1000}
               height={1000}
             />
-          </div>
-          <div className="flex flex-col mt-[8px] gap-[2em]">
             <p className="font-light text-[22px]">
               AI genearted information about medication such as side effects are
               fetched from the Canadian Drug Product Database.
@@ -228,9 +230,21 @@ const Remedify = () => {
               being fetched the Canadian Drug Product Database.
             </p>
           </div>
+          {/* <div className="flex flex-col mt-[8px] gap-[2em]">
+            <p className="font-light text-[22px]">
+              AI genearted information about medication such as side effects are
+              fetched from the Canadian Drug Product Database.
+            </p>
+            <p className="font-light text-[22px]">
+              OpenAI's GPT-4o mini is being used to analyze text data from the
+              OCR and put into the corresponding objects. It's also being used
+              to generate information on medications using the data that is
+              being fetched the Canadian Drug Product Database.
+            </p>
+          </div> */}
         </div>
 
-        <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
+        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
           <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
             Research
           </h1>
@@ -260,7 +274,7 @@ const Remedify = () => {
           </a>
         </div>
 
-        <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
+        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
           <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
             Wireframe
           </h1>
@@ -278,7 +292,7 @@ const Remedify = () => {
           />
         </div>
 
-        <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
+        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
           <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
             Hi-Fi Prototype
           </h1>
