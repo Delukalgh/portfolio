@@ -13,6 +13,7 @@ import Cover from "/public/images/cover.jpg";
 import { useScroll, motion, useTransform } from "framer-motion";
 import { AuroraBackground } from "@/components/aurora-background";
 import Footer from "../../components/Footer";
+import Tranquility from "/public/images/tranquilityCover.png";
 
 export default function Home() {
   // const element = useRef(null);
@@ -163,7 +164,7 @@ export default function Home() {
                     <Image
                       className="rounded-[20px]"
                       src={Cover}
-                      alt="Remedify Cover"  
+                      alt="Remedify Cover"
                       width={1000}
                       height={1000}
                     />
@@ -171,6 +172,32 @@ export default function Home() {
                   <div className="flex justify-center pt-[18px]">
                     <h1 className="text-[28px] font-medium text-[#FF5F00]">
                       Remedify
+                    </h1>
+                  </div>
+                </motion.div>
+              </div>
+              <div className="block">
+                <motion.div
+                  whileHover={{
+                    scale: 1.1,
+                    border: "6px solid #0097CE",
+                    background: "#0097CE",
+                    borderRadius: "20px",
+                  }}
+                  whileTap={{ scale: 0.8 }}
+                >
+                  <a href="/project/tranquility">
+                    <Image
+                      className="rounded-[20px]"
+                      src={Tranquility}
+                      alt="Tranquility Cover"
+                      width={1000}
+                      height={1000}
+                    />
+                  </a>
+                  <div className="flex justify-center pt-[18px]">
+                    <h1 className="text-[28px] font-medium text-[#FF5F00]">
+                      Tranquility Cranes
                     </h1>
                   </div>
                 </motion.div>

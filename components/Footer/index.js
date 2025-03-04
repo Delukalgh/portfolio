@@ -18,7 +18,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="absolute">
-          <p>copywrite</p>
+          <p>Copyright</p>
         </div>
       </footer>
     </>
