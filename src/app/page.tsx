@@ -44,7 +44,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div>
+              <div className="block">
                 <motion.div
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.8 }}
