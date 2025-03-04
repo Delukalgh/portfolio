@@ -17,6 +17,9 @@ export default function Footer() {
             />
           </a>
         </div>
+        <div className="absolute">
+          <p>copywrite</p>
+        </div>
       </footer>
     </>
   );
