@@ -1,32 +1,21 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .title {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    font-weight: bold;
-    justify-content: start;
-    padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-weight: bold;
+  justify-content: start;
+  padding-right: 2rem;
 }
 
 .title > p > span {
-    font-weight: lighter;
-    color: #0097CE;
-    opacity: 70%;
-    font-weight: bold;
-
+  font-weight: lighter;
+  color: #0097ce;
+  opacity: 70%;
+  font-weight: bold;
 }
-
-.description {
-    display: flex;
-    font-size: 28px;
-    font-weight: 500;
-    max-width: 1280px;
-    flex-wrap: wrap;
-    line-height: 1.5;
-}
-
