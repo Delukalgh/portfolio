@@ -128,12 +128,6 @@ const Remedify = () => {
             informed and on track with their treatment.
           </span>
         </div>
-
-        {/* <div className="flex flex-col w-[57%] mt-[3em] gap-[2em]">
-          <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
-            Hi-Fi Prototype
-          </h1>
-        </div> */}
         <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
           <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
             Research

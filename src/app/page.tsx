@@ -30,16 +30,16 @@ export default function Home() {
   // const length = words.length;
   return (
     <>
-      <AuroraBackground>
+
         <div className={styles.container}>
           <div className="min-h-screen">
             <Header />
             <section className="relative flex flex-row justify-around pt-[5em]">
               <div>
                 <div className={styles.title}>
-                  <p className="text-[#FF5F00] text-[6em]">
-                    Deluka <span>LGH</span>
-                  </p>{" "}
+                  <p className={styles.gradient}>
+                    Deluka LGH
+                  </p>
                   <p className="text-[28px] font-light">
                     Front-End Developer <br></br>UX/UI Designer
                   </p>
@@ -59,7 +59,7 @@ export default function Home() {
                       height={600}
                     />
                   </a>
-                  <p className="text-[28px] font-medium">Case Study</p>
+                  <p className="text-[28px] font-medium text-center pt-[10px]">Case Study</p>
                 </motion.div>
               </div>
             </section>
@@ -207,7 +207,7 @@ export default function Home() {
             </div>
           </main>
         </div>
-      </AuroraBackground>
+
       <Footer />
     </>
   );

@@ -8,7 +8,7 @@ import { AuroraBackground } from "@/components/aurora-background";
 export default function Contact() {
   return (
     <>
-      <AuroraBackground>
+
         <Header />
         <div className={styles.container}>
           <div className="flex mt-[5em]">
@@ -46,7 +46,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-      </AuroraBackground>
+
     </>
   );
 }

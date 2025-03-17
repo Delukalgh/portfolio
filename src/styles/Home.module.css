@@ -13,9 +13,10 @@
   padding-right: 2rem;
 }
 
-.title > p > span {
-  font-weight: lighter;
-  color: #0097ce;
-  opacity: 70%;
-  font-weight: bold;
+.gradient {
+  font-size: 6em;
+  background: -webkit-linear-gradient(18deg, #0097CE, #FF5F00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
