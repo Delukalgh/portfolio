@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 import Footer from "../../../../components/Footer";
 import Color from "/public/images/color.png";
 import Font from "/public/images/fonts.png";
-import Logo from "/public/images/remedify_logo.png"
+import Logo from "/public/images/remedify_logo.png";
 
 const Remedify = () => {
   return (
@@ -78,13 +78,6 @@ const Remedify = () => {
                 </motion.button>
               </a>
             </div>
-            <a
-              href="https://www.figma.com/board/WK9WoDPIFcwGfjfifl3ZOr/Competitive-Analysis-(Latest-Ver.)?node-id=0-1&t=f52PRrMN5V2NQOsU-1"
-              target="_blank"
-              className="font-medium text-[22px] text-[#0097CE]"
-            >
-              Read the full competitive analysis here!
-            </a>
           </div>
         </div>
         <div className="flex flex-row w-[57%] mt-[3em] gap-[2em]">
@@ -141,18 +134,51 @@ const Remedify = () => {
             Hi-Fi Prototype
           </h1>
         </div> */}
-
         <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
           <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
-            User Flow Map
+            Research
           </h1>
-          <iframe
-            className="rounded-[20px]"
-            width="100%"
-            height="600"
-            src="https://embed.figma.com/board/yZQtaPQvVGlnF0E4j5yFgo/User-Flow-Map?embed-host=share"
-            title="Figma user flow map"
-          />
+          <a
+            href="https://www.figma.com/board/WK9WoDPIFcwGfjfifl3ZOr/Competitive-Analysis-(Latest-Ver.)?node-id=0-1&t=f52PRrMN5V2NQOsU-1"
+            target="_blank"
+            className="font-medium text-[22px] text-[#0097CE]"
+          >
+            Read the full competitive analysis here!
+          </a>
+          <div className="flex flex-col mt-[2em] gap-[1em]">
+            <h1 className="flex justify-start font-bold text-[2em] text-[#0097CE]">
+              User Flow Map
+            </h1>
+            <iframe
+              className="rounded-[20px]"
+              width="100%"
+              height="600"
+              src="https://embed.figma.com/board/yZQtaPQvVGlnF0E4j5yFgo/User-Flow-Map?embed-host=share"
+              title="Figma user flow map"
+            />
+          </div>
+          <div className="flex flex-col mt-[2em] gap-[1em]">
+            <h1 className="flex justify-start font-bold text-[2em] text-[#0097CE]">
+              User Research
+            </h1>
+            <p className="font-light text-[22px]">
+              Numerous surveys and interviews were run by the members of the
+              team to ensure that the idea of the app is refined and validated.
+            </p>
+            <div className="flex flex-row justify-between">
+              <iframe
+                className="rounded-[20px]"
+                width="100%"
+                height="600"
+                src="https://embed.figma.com/board/aeFXB4eFigRIOoPfr6cmeA/Persona?node-id=0-1&embed-host=share"
+                title="User Persona"
+              />
+            </div>
+            <p className="font-light text-[22px]">
+              The persona's were built with the target audience in mind, which
+              was refined by the interviews and surveys.
+            </p>
+          </div>
         </div>
 
         <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
@@ -186,29 +212,6 @@ const Remedify = () => {
               title="Figma Hi-Fi Prototype"
             />
           </a>
-        </div>
-
-        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
-          <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
-            Research
-          </h1>
-          <p className="font-light text-[22px]">
-            Numerous surveys and interviews were run by the members of the team
-            to ensure that the idea of the app is refined and validated.
-          </p>
-          <div className="flex flex-row justify-between">
-            <iframe
-              className="rounded-[20px]"
-              width="100%"
-              height="600"
-              src="https://embed.figma.com/board/aeFXB4eFigRIOoPfr6cmeA/Persona?node-id=0-1&embed-host=share"
-              title="User Persona"
-            />
-          </div>
-          <p className="font-light text-[22px]">
-            The persona's were built with the target audience in mind, which was
-            refined by the interviews and surveys.
-          </p>
         </div>
 
         <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
