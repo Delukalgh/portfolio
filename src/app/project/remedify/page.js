@@ -13,6 +13,7 @@ import { motion } from "framer-motion";
 import Footer from "../../../../components/Footer";
 import Color from "/public/images/color.png";
 import Font from "/public/images/fonts.png";
+import Logo from "/public/images/remedify_logo.png"
 
 const Remedify = () => {
   return (
@@ -219,6 +220,14 @@ const Remedify = () => {
             balance of vibrancy and calmness, offering users an engaging yet
             soothing experience.
           </p>
+
+          <div className="flex flex-col mt-[2em] gap-[1em]">
+            <h1 className="flex justify-start font-bold text-[2em] text-[#0097CE]">
+              Logo
+            </h1>
+            <Image src={Logo} alt="Color pallet" width={1000} height={600} />
+          </div>
+
           <div className="flex flex-col mt-[2em] gap-[1em]">
             <h1 className="flex justify-start font-bold text-[2em] text-[#0097CE]">
               Colors
