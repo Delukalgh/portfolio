@@ -77,6 +77,13 @@ const Remedify = () => {
                 </motion.button>
               </a>
             </div>
+            <a
+              href="https://www.figma.com/board/WK9WoDPIFcwGfjfifl3ZOr/Competitive-Analysis-(Latest-Ver.)?node-id=0-1&t=f52PRrMN5V2NQOsU-1"
+              target="_blank"
+              className="font-medium text-[22px] text-[#0097CE]"
+            >
+              Read the full competitive analysis here!
+            </a>
           </div>
         </div>
         <div className="flex flex-row w-[57%] mt-[3em] gap-[2em]">
@@ -93,6 +100,17 @@ const Remedify = () => {
               <li>Canadian Drug Product Database</li>
             </ul>
           </div>
+        </div>
+
+        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
+          <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
+            Marketing Video
+          </h1>
+          <a>
+            <video width={1000} controls muted>
+              <source src="/videos/visual_story.mp4" type="video/mp4" />
+            </video>
+          </a>
         </div>
 
         <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
@@ -122,6 +140,75 @@ const Remedify = () => {
             Hi-Fi Prototype
           </h1>
         </div> */}
+
+        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
+          <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
+            User Flow Map
+          </h1>
+          <iframe
+            className="rounded-[20px]"
+            width="100%"
+            height="600"
+            src="https://embed.figma.com/board/yZQtaPQvVGlnF0E4j5yFgo/User-Flow-Map?embed-host=share"
+            title="Figma user flow map"
+          />
+        </div>
+
+        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
+          <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
+            Wireframe
+          </h1>
+          <p className="font-light text-[22px]">
+            This was the first wireframe created for Remedify. Initially, the
+            app included many ideas and features, but it ultimately pivoted to
+            focus on improving drug adherence. Scroll down to see the
+            high-fidelity version of the app ↓.
+          </p>
+          <Image
+            src={Wireframe}
+            alt="remedify wireframe"
+            width={1000}
+            height={1000}
+          />
+        </div>
+
+        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
+          <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
+            Hi-Fi Prototype
+          </h1>
+          <a>
+            <iframe
+              className="rounded-[20px]"
+              width="100%"
+              height="600"
+              src="https://embed.figma.com/proto/4ni9gyLkBDkeQNBfia2rgo/Remedify-Hi-fi?node-id=1797-14295&starting-point-node-id=1797%3A14295&embed-host=share"
+              title="Figma Hi-Fi Prototype"
+            />
+          </a>
+        </div>
+
+        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
+          <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
+            Research
+          </h1>
+          <p className="font-light text-[22px]">
+            Numerous surveys and interviews were run by the members of the team
+            to ensure that the idea of the app is refined and validated.
+          </p>
+          <div className="flex flex-row justify-between">
+            <iframe
+              className="rounded-[20px]"
+              width="100%"
+              height="600"
+              src="https://embed.figma.com/board/aeFXB4eFigRIOoPfr6cmeA/Persona?node-id=0-1&embed-host=share"
+              title="User Persona"
+            />
+          </div>
+          <p className="font-light text-[22px]">
+            The persona's were built with the target audience in mind, which was
+            refined by the interviews and surveys.
+          </p>
+        </div>
 
         <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
           <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
@@ -163,19 +250,6 @@ const Remedify = () => {
             </p>
             <Image src={Font} alt="Fonts" width={1000} height={1000} />
           </div>
-        </div>
-
-        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
-          <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
-            User Flow Map
-          </h1>
-          <iframe
-            className="rounded-[20px]"
-            width="100%"
-            height="600"
-            src="https://embed.figma.com/board/yZQtaPQvVGlnF0E4j5yFgo/User-Flow-Map?embed-host=share"
-            title="Figma user flow map"
-          />
         </div>
 
         <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
@@ -238,80 +312,6 @@ const Remedify = () => {
               being fetched the Canadian Drug Product Database.
             </p>
           </div> */}
-        </div>
-
-        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
-          <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
-            Research
-          </h1>
-          <p className="font-light text-[22px]">
-            Numerous surveys and interviews were run by the members of the team
-            to ensure that the idea of the app is refined and validated.
-          </p>
-          <div className="flex flex-row justify-between">
-            <iframe
-              className="rounded-[20px]"
-              width="100%"
-              height="600"
-              src="https://embed.figma.com/board/aeFXB4eFigRIOoPfr6cmeA/Persona?node-id=0-1&embed-host=share"
-              title="User Persona"
-            />
-          </div>
-          <p className="font-light text-[22px]">
-            The persona's were built with the target audience in mind, which was
-            refined by the interviews and surveys.
-          </p>
-          <a
-            href="https://www.figma.com/board/WK9WoDPIFcwGfjfifl3ZOr/Competitive-Analysis-(Latest-Ver.)?node-id=0-1&t=f52PRrMN5V2NQOsU-1"
-            target="_blank"
-            className="font-medium text-[22px] text-[#0097CE]"
-          >
-            Read the full competitive analysis here!
-          </a>
-        </div>
-
-        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
-          <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
-            Wireframe
-          </h1>
-          <p className="font-light text-[22px]">
-            This was the first wireframe created for Remedify. Initially, the
-            app included many ideas and features, but it ultimately pivoted to
-            focus on improving drug adherence. Scroll down to see the
-            high-fidelity version of the app ↓.
-          </p>
-          <Image
-            src={Wireframe}
-            alt="remedify wireframe"
-            width={1000}
-            height={1000}
-          />
-        </div>
-
-        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
-          <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
-            Hi-Fi Prototype
-          </h1>
-          <a>
-            <iframe
-              className="rounded-[20px]"
-              width="100%"
-              height="600"
-              src="https://embed.figma.com/proto/4ni9gyLkBDkeQNBfia2rgo/Remedify-Hi-fi?node-id=1797-14295&starting-point-node-id=1797%3A14295&embed-host=share"
-              title="Figma Hi-Fi Prototype"
-            />
-          </a>
-        </div>
-
-        <div className="flex flex-col w-[57%] mt-[3em] gap-[1em]">
-          <h1 className="flex justify-start font-bold text-[3em] text-[#FF5F00]">
-            Marketing Video
-          </h1>
-          <a>
-            <video width={1000} controls muted>
-              <source src="/videos/visual_story.mp4" type="video/mp4" />
-            </video>
-          </a>
         </div>
       </div>
       <Footer />

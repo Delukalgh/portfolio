@@ -50,7 +50,7 @@ export default function Home() {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.8 }}
                 >
-                  <a href="/project/remedify">
+                  <a href="#remedify">
                     <Image
                       className="rounded-[20px]"
                       src={Cover}
@@ -59,6 +59,7 @@ export default function Home() {
                       height={600}
                     />
                   </a>
+                  <p className="text-[28px] font-medium">Case Study</p>
                 </motion.div>
               </div>
             </section>
@@ -71,6 +72,87 @@ export default function Home() {
               <h1 className="flex justify-center font-bold text-[3em] text-[#FF5F00]">
                 Projects
               </h1>
+
+              <div className="block" id="remedify">
+                <motion.div
+                  whileHover={{
+                    scale: 1.1,
+                    border: "6px solid #0097CE",
+                    background: "#0097CE",
+                    borderRadius: "20px",
+                  }}
+                  whileTap={{ scale: 0.8 }}
+                >
+                  <a href="/project/remedify">
+                    <Image
+                      className="rounded-[20px]"
+                      src={Cover}
+                      alt="Remedify Cover"
+                      width={1000}
+                      height={1000}
+                    />
+                  </a>
+                  <div className="flex justify-center pt-[18px]">
+                    <h1 className="text-[28px] font-medium text-[#FF5F00]">
+                      Remedify
+                    </h1>
+                  </div>
+                </motion.div>
+              </div>
+
+              <div className="block">
+                <motion.div
+                  whileHover={{
+                    scale: 1.1,
+                    border: "6px solid #0097CE",
+                    background: "#0097CE",
+                    borderRadius: "20px",
+                  }}
+                  whileTap={{ scale: 0.8 }}
+                >
+                  <a href="/project/tranquility">
+                    <Image
+                      className="rounded-[20px]"
+                      src={Tranquility}
+                      alt="Tranquility Cover"
+                      width={1000}
+                      height={1000}
+                    />
+                  </a>
+                  <div className="flex justify-center pt-[18px]">
+                    <h1 className="text-[28px] font-medium text-[#FF5F00]">
+                      Tranquility Cranes
+                    </h1>
+                  </div>
+                </motion.div>
+              </div>
+
+              <div className="block">
+                <motion.div
+                  whileHover={{
+                    scale: 1.1,
+                    border: "6px solid #0097CE",
+                    background: "#0097CE",
+                    borderRadius: "20px",
+                  }}
+                  whileTap={{ scale: 0.8 }}
+                >
+                  <a href="/project/magazine">
+                    <Image
+                      className="rounded-[20px]"
+                      src={Toyo}
+                      alt="magazine"
+                      width={1000}
+                      height={1000}
+                    />
+                  </a>
+                  <div className="flex justify-center pt-[18px]">
+                    <h1 className="text-[28px] font-medium text-[#FF5F00]">
+                      Spaces of Serenity: The Visionary Architecture of Toyo Ito
+                    </h1>
+                  </div>
+                </motion.div>
+              </div>
 
               <div className="block">
                 <motion.div
@@ -122,86 +204,6 @@ export default function Home() {
                   </h1>
                 </div>
               </motion.div>
-
-              <div className="block">
-                <motion.div
-                  whileHover={{
-                    scale: 1.1,
-                    border: "6px solid #0097CE",
-                    background: "#0097CE",
-                    borderRadius: "20px",
-                  }}
-                  whileTap={{ scale: 0.8 }}
-                >
-                  <a href="/project/magazine">
-                    <Image
-                      className="rounded-[20px]"
-                      src={Toyo}
-                      alt="magazine"
-                      width={1000}
-                      height={1000}
-                    />
-                  </a>
-                  <div className="flex justify-center pt-[18px]">
-                    <h1 className="text-[28px] font-medium text-[#FF5F00]">
-                      Spaces of Serenity: The Visionary Architecture of Toyo Ito
-                    </h1>
-                  </div>
-                </motion.div>
-              </div>
-
-              <div className="block">
-                <motion.div
-                  whileHover={{
-                    scale: 1.1,
-                    border: "6px solid #0097CE",
-                    background: "#0097CE",
-                    borderRadius: "20px",
-                  }}
-                  whileTap={{ scale: 0.8 }}
-                >
-                  <a href="/project/remedify">
-                    <Image
-                      className="rounded-[20px]"
-                      src={Cover}
-                      alt="Remedify Cover"
-                      width={1000}
-                      height={1000}
-                    />
-                  </a>
-                  <div className="flex justify-center pt-[18px]">
-                    <h1 className="text-[28px] font-medium text-[#FF5F00]">
-                      Remedify
-                    </h1>
-                  </div>
-                </motion.div>
-              </div>
-              <div className="block">
-                <motion.div
-                  whileHover={{
-                    scale: 1.1,
-                    border: "6px solid #0097CE",
-                    background: "#0097CE",
-                    borderRadius: "20px",
-                  }}
-                  whileTap={{ scale: 0.8 }}
-                >
-                  <a href="/project/tranquility">
-                    <Image
-                      className="rounded-[20px]"
-                      src={Tranquility}
-                      alt="Tranquility Cover"
-                      width={1000}
-                      height={1000}
-                    />
-                  </a>
-                  <div className="flex justify-center pt-[18px]">
-                    <h1 className="text-[28px] font-medium text-[#FF5F00]">
-                      Tranquility Cranes
-                    </h1>
-                  </div>
-                </motion.div>
-              </div>
             </div>
           </main>
         </div>
