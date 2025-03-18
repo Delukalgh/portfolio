@@ -6,9 +6,9 @@
 @tailwind utilities;
 
 body {
-  --dot-bg: #161616;
-  --dot-color: #848282;
-  --dot-size: 1px;
+  --dot-bg: #000;
+  --dot-color: #fff;
+  --dot-size: 2px;
   --dot-space: 50px;
   background:
     linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
