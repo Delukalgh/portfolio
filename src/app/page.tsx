@@ -100,7 +100,7 @@ export default function Home() {
                 </motion.div>
               </div>
 
-              <div className="block">
+              {/* <div className="block">
                 <motion.div
                   whileHover={{
                     scale: 1.1,
@@ -125,7 +125,7 @@ export default function Home() {
                     </h1>
                   </div>
                 </motion.div>
-              </div>
+              </div> */}
 
               <div className="block">
                 <motion.div
