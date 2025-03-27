@@ -43,6 +43,13 @@ export default function About() {
             </div>
           </div>
         </div>
+        <iframe 
+          src="/game/Firstgame.html" 
+          title="My game"
+          width="800"
+          height="600"
+          />
+    
       </div>
     </>
   );
