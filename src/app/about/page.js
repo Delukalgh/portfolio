@@ -44,7 +44,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center p-8 m-8">
+        <div className="flex justify-center  m-8 border-4">
           <iframe
             className="flex w-[full]"
             src="/game/Firstgame.html"
