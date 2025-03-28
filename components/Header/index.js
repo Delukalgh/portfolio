@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./Header.module.css";
 import Home from "@/app/page";
+import Logo from "../SVGS/logo"
 
 export default function Header() {
     return (
