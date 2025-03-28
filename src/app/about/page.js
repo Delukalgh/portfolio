@@ -3,8 +3,9 @@ import Header from "../../../components/Header";
 import styles from "./About.module.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Photo from "/public/images/portfolio.JPG"
+import Photo from "/public/images/portfolio.JPG";
 import Image from "next/image";
+import Footer from "../../../components/Footer";
 
 export default function About() {
   return (
@@ -43,13 +44,18 @@ export default function About() {
             </div>
           </div>
         </div>
-        <iframe 
-          src="/game/Firstgame.html" 
-          title="My game"
-          width="800"
-          height="600"
+        <div className="flex justify-center p-8 m-8">
+          <iframe
+            className="flex w-[full]"
+            src="/game/Firstgame.html"
+            title="My game"
+            width={1000}
+            height={600}
           />
-    
+        </div>
+      </div>
+      <div className="">
+        <Footer />
       </div>
     </>
   );
